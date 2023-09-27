@@ -13,4 +13,4 @@ Los archivos que se muestran son resultados del Curso de Pinia Vue JS
 
 ## Link Curso
 
-https://github.com/leonardoovaldezz/Pinia.git
+https://github.com/leonardoovaldezz/curso-pinia-vuejs.git
