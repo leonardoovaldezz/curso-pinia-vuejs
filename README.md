@@ -1,16 +1,29 @@
-# Curso de Pinia Vue JS
+# curso-pinia-vuejs
 
+This template should help get you started developing with Vue 3 in Vite.
 
-Los archivos que se muestran son resultados del Curso de Pinia Vue JS
+## Recommended IDE Setup
 
+[VSCode](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur) + [TypeScript Vue Plugin (Volar)](https://marketplace.visualstudio.com/items?itemName=Vue.vscode-typescript-vue-plugin).
 
-## Otras secciones comunes del perfil de Github
-👩‍💻Actualmente estoy trabajando en pinia
+## Customize configuration
 
-🧠 Actualmente estoy aprendiendo pinia
+See [Vite Configuration Reference](https://vitejs.dev/config/).
 
-👯‍♀️ Busco colaborar en pinia
+## Project Setup
 
-## Link Curso
+```sh
+npm install
+```
 
-https://github.com/leonardoovaldezz/Pinia.git
+### Compile and Hot-Reload for Development
+
+```sh
+npm run dev
+```
+
+### Compile and Minify for Production
+
+```sh
+npm run build
+```
