@@ -16,6 +16,7 @@ See [Vite Configuration Reference](https://vitejs.dev/config/).
 npm install
 ```
 
+<<<<<<< HEAD
 ### Compile and Hot-Reload for Development
 
 ```sh
@@ -27,3 +28,6 @@ npm run dev
 ```sh
 npm run build
 ```
+=======
+https://github.com/leonardoovaldezz/curso-pinia-vuejs.git
+>>>>>>> ef140b5b99f7737183bd317ca0af1053d8b84a63
