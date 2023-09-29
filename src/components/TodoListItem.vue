@@ -3,7 +3,7 @@
 import { toRefs } from "vue";
 import { useTodo } from "../stores/todo";
 
-const { toggleTodo } = useTodo();
+const { toggleTodo, deleteTodo } = useTodo();
 const props = defineProps({
   id: Number,
   task: String,
@@ -15,7 +15,10 @@ const { id, task, completed, date } = toRefs(props);
 </script>
   
 <template>
-  <li @click="toggleTodo(id)">
-    {{ id }} -- {{ task }} -- {{ completed }} -- {{ date }}
+  <li>
+    <div @click="toggleTodo(id)">
+      {{ id }} -- {{ task }} -- {{ completed }} -- {{ date }}
+      <button @click="deleteTodo(id)">Delete</button>
+    </div>
   </li>
 </template>

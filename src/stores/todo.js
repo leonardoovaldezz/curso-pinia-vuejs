@@ -16,6 +16,9 @@ export const useTodo = defineStore("todo", {
             if (task) {
                 task.completed = !task.completed;
             }
+        },
+        deleteTodo(id) {
+            this.todoList = this.todoList.filter(item => item.id !== id)
         }
     }
 });
