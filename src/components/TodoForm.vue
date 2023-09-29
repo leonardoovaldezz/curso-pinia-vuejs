@@ -15,9 +15,17 @@ function addNewTask() {
 </script>
 
 <template>
-  <form action="" @submit.prevent="addNewTask()">
-    <input type="text" v-model="task" />
-    <button>Add</button>
+  <form action="" @submit.prevent="addNewTask()" class="mb-4">
+    <input
+      type="text"
+      v-model="task"
+      class="border p-2 w-full rounded text-green-500"
+      placeholder="Add a new task..."
+    />
+    <br><br>
+    <button type="submit" class="bg-primary text-white py-2 px-4 rounded">
+      Add
+    </button>
   </form>
-  {{ task }}
 </template>
+

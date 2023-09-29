@@ -16,9 +16,14 @@ const { id, task, completed, date } = toRefs(props);
   
 <template>
   <li>
-    <div @click="toggleTodo(id)">
+    <div @click="toggleTodo(id)" class="text-black cursor-pointer">
       {{ id }} -- {{ task }} -- {{ completed }} -- {{ date }}
-      <button @click="deleteTodo(id)">Delete</button>
+      <button
+        @click="deleteTodo(id)"
+        class="bg-red-500 text-white px-2 py-1 rounded"
+      >
+        Delete
+      </button>
     </div>
   </li>
 </template>

@@ -18,8 +18,14 @@ const hasTodo = computed(() => {
 </script>
 
 <template>
-  <p v-if="hasTodo">completed task {{ totalCompleted }} / {{ totalTodo }}</p>
-  <TodoForm></TodoForm>
-  <TodoList></TodoList>
-  <p v-if="!hasTodo">nothing to do ? add a new task!!</p>
+  <div class="mb-4">
+    <p v-if="hasTodo" class="text-success">
+      Completed tasks {{ totalCompleted }} / {{ totalTodo }}
+    </p>
+    <TodoForm></TodoForm>
+    <TodoList></TodoList>
+    <p v-if="!hasTodo" class="text-accent">
+      Nothing to do? Add a new task!
+    </p>
+  </div>
 </template>
